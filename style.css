@@ -1,0 +1,130 @@
+
+body {
+    margin:0;
+    background: radial-gradient(circle, rgb(172, 26, 172) , rgb(211, 91, 211) , rgb(247, 136, 247));
+
+}
+.ultimate-container {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+    
+}
+
+#head {
+    text-align:center;
+    background-color: black;
+    color:aliceblue;
+    width:100vw;
+}
+
+.flex-container {
+    display:flex;
+    flex-direction:row;
+    gap: 40px;
+}
+
+#icon1 {
+    background-color:cadetblue;
+    border-radius:50%;
+    border:2px solid black;
+    height:140px;
+    width:140px;
+    background-image:url(https://cdn0.iconfinder.com/data/icons/rock-paper-scissors-emoji/792/rock-paper-scissors-emoji-cartoon-016-256.png);
+    background-size:cover;
+    background-position: center;
+
+}
+
+#icon2 {
+    background-color:rgb(246, 118, 118);
+    border-radius:50%;
+    border:2px solid black;
+    height:140px;
+    width:140px;
+    background-image:url(https://cdn0.iconfinder.com/data/icons/rock-paper-scissors-emoji/792/rock-paper-scissors-emoji-cartoon-008-512.png);
+    background-size:cover;
+    background-position: center;
+
+}
+
+#icon3 {
+    background-color:rgb(117, 117, 231);
+    border-radius:50%;
+    border:2px solid black;
+    height:140px;
+    width:140px;
+    background-image:url(https://cdn0.iconfinder.com/data/icons/rock-paper-scissors-emoji/792/rock-paper-scissors-emoji-cartoon-022-512.png);
+    background-size:cover;
+    background-position: center;
+
+}
+
+#second-container {
+    margin-top:50px;
+    margin-left:45%;
+    
+}
+
+#your-score {
+    display:inline-block;
+    margin-top:60px;
+    text-align:center;
+    width:50px;
+    height:50px;
+    margin-right:50px;
+}
+
+#your-score h2 , p {
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:xx-large;
+}
+
+
+#comp-score {
+    display:inline-block;
+    margin-top:60px;
+    text-align:center;
+    width:50px;
+    height:50px;
+}
+
+#comp-score h2 , p {
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:xx-large;
+}
+
+#final-message {
+    text-align:center;
+    padding:10px;
+    display:inline-block;
+    background-color: black;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius:5px;
+    border:2pxsolid black;
+    height:30px;
+    width:340px;
+    margin-top: 50px;
+    margin-left:39vw;
+    font-size:x-large;
+}
+
+#icon1:hover {
+    cursor:pointer;
+    border:6px solid black;
+ }
+
+#icon2:hover {
+    cursor:pointer;
+    border:6px solid black;
+ }
+
+#icon3:hover {
+   cursor:pointer;
+   border:6px solid black;
+}
+
